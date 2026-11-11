@@ -1,25 +1,35 @@
 {
-  "name": "micro-vscode",
-  "displayName": "micro",
-  "description": "VSCode language support for the micro programming language.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.146.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "micro",
-      "aliases": ["micro", "micro"],
-      "extensions": [".mic",".micro"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "micro",
-      "scopeName": "source.micro",
-      "path": "./syntaxes/micro.tmLanguage.json"
-    }]
-  }
+    "name": "micro-vscode",
+    "displayName": "micro",
+    "description": "VSCode language support for the micro programming language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.146.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "micro",
+                "aliases": [
+                    "micro",
+                    "micro"
+                ],
+                "extensions": [
+                    ".mic",
+                    ".micro"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "micro",
+                "scopeName": "source.micro",
+                "path": "./syntaxes/micro.tmLanguage.json"
+            }
+        ]
+    }
 }
