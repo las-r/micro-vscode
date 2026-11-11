@@ -8,6 +8,7 @@
         { "include": "#numbers" },
         { "include": "#function-definition" },
         { "include": "#keywords" },
+        { "include": "#builtins" },
         { "include": "#function-call" },
         { "include": "#operators" },
         { "include": "#punctuation" },
@@ -55,6 +56,10 @@
                     "match": "\\bfunc\\b"
                 }
             ]
+        },
+        "builtins": {
+            "name": "support.function.builtin.micro",
+            "match": "\\b(print|input|type|conv|len|add|del)\\b"
         },
         "function-call": {
             "match": "\\b([a-zA-Z_]\\w*)(?=\\s*\\()",
