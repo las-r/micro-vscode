@@ -2,7 +2,7 @@
     "name": "micro-vscode",
     "displayName": "micro",
     "description": "VSCode language support for the micro programming language.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.146.0"
     },
