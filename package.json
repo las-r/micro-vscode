@@ -2,7 +2,7 @@
     "name": "micro-vscode",
     "displayName": "micro",
     "description": "VSCode language support for the micro programming language.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "las-r",
     "repository": {
         "type": "git",
